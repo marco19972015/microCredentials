@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="format.css" type="text/css">
+
+
+
+</head>
+
+<body background="photos/background.jpg">
+
+
+  <fieldset class="field">
+    <legend>CHECKOUT</legend>
+    <h1>Confirmed</h1>
+    <h2>Tickets bought for...</h2>
+    <hr>
+
+    <div class="stuff_container">
+
+
+      <span id='pName'> </span> <br>
+      <span id='ptag'></span>
+
+    </div>
+
+    <script type="text/javascript">
+      // We describe how we are placing things
+      //  below for elements on top
+      let prudName = document.querySelector('#pName');
+      let priceTag = document.querySelector('#ptag')
+      // we used what was stored from index html below and place them
+      // in variables below
+      pName.innerHTML = localStorage.getItem('product_name');
+      ptag.innerHTML = localStorage.getItem('price_Tag');
+    </script>
+
+    <hr>
+
+    <h1>Enjoy the show!</h1>
+
+</body>
+
+</html>
